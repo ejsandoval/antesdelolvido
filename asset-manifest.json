@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/antesdelolvido/static/css/main.d1b05096.chunk.css",
+    "main.js": "/antesdelolvido/static/js/main.58cb14f2.chunk.js",
+    "main.js.map": "/antesdelolvido/static/js/main.58cb14f2.chunk.js.map",
+    "runtime-main.js": "/antesdelolvido/static/js/runtime-main.88828408.js",
+    "runtime-main.js.map": "/antesdelolvido/static/js/runtime-main.88828408.js.map",
+    "static/js/2.51cf159d.chunk.js": "/antesdelolvido/static/js/2.51cf159d.chunk.js",
+    "static/js/2.51cf159d.chunk.js.map": "/antesdelolvido/static/js/2.51cf159d.chunk.js.map",
+    "index.html": "/antesdelolvido/index.html",
+    "precache-manifest.de726a7e3430cb6ed304871b1f383ee7.js": "/antesdelolvido/precache-manifest.de726a7e3430cb6ed304871b1f383ee7.js",
+    "service-worker.js": "/antesdelolvido/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/antesdelolvido/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.51cf159d.chunk.js.LICENSE": "/antesdelolvido/static/js/2.51cf159d.chunk.js.LICENSE",
+    "static/media/logo.svg": "/antesdelolvido/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88828408.js",
+    "static/js/2.51cf159d.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.58cb14f2.chunk.js"
+  ]
+}
