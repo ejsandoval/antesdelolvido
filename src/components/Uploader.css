@@ -1,0 +1,26 @@
+.root {
+	width: auto;
+	bottom: 50px;
+	left: 10px;
+	z-index: 1000;
+	position: absolute;
+	height: 40px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: var(--margin-quarter) var(--margin);
+	transition: height 0.4s ease, width 0.4s ease, background 0.1s ease;
+	background-color: var(--color-green);
+	color: var(--color-background);
+}
+
+.root:hover {
+	color: black !important;
+	text-decoration: underline;
+	transform: translate(2px, 2px);
+}
+
+.root:hover a {
+	color: black !important;
+	text-decoration: none;
+}

@@ -1,0 +1,38 @@
+:root {
+	--color-yellow: #fff940;
+	--color-cyan: #5cffe4;
+	--color-green: #5cff61;
+	--color-pink: #ff4080;
+	--color-text: white;
+	--color-text-highlight: var(--color-green);
+	--color-border: gray(70%);
+	--color-gray: #8f8f8f;
+	--color-background: #0a0a0a;
+	--color-background-light: #141414;
+	--color-background-lighter: #282828;
+	--margin: 1.4rem;
+	--margin-half: calc(var(--margin) / 2);
+	--margin-double: calc(var(--margin) * 2);
+	--margin-quarter: calc(var(--margin) / 4);
+	--margin-eight: calc(var(--margin) / 8);
+	--font-size-base: 16px;
+	--font-size-tiny: 0.8rem;
+	--font-size-small: 0.9rem;
+	--font-size-normal: 1rem;
+	--font-size-medium: 1.4rem;
+	--font-size-large: 2.6rem;
+	--font-size-xlarge: 3.4rem;
+}
+
+@custom-media --small (max-width: 599px);
+@custom-media --medium (min-width: 600px);
+@custom-media --large (min-width: 1000px);
+@custom-media --xlarge (min-width: 1600px);
+
+:export {
+	green: var(--color-green);
+	yellow: var(--color-yellow);
+	cyan: var(--color-cyan);
+	pink: var(--color-pink);
+	orange: var(--color-orange);
+}

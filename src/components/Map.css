@@ -1,0 +1,64 @@
+.root {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.root .image {
+	object-fit: contain;
+}
+
+.info {
+	position: absolute;
+	top: 10px;
+	right: 390px;
+	z-index: 20;
+	font-size: var(--font-size-small);
+}
+
+.infoRight {
+	right: 1%;
+}
+
+.marker {
+	background-image: url("../assets/icons/guñelve.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.escultura {
+	background-image: url("../assets/icons/escultura.png");
+}
+
+.mobiliario {
+	background-image: url("../assets/icons/mobiliario.png");
+}
+
+.muralla {
+	background-image: url("../assets/icons/muralla.png");
+}
+
+.edificio {
+	background-image: url("../assets/icons/edificio.png");
+}
+
+.mapboxgl-popup {
+	max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+	text-align: center;
+}
+
+a.mapboxgl-ctrl-logo {
+	background-color: none;
+	margin: auto;
+	padding: 1px 2px;
+	color: white;
+}
